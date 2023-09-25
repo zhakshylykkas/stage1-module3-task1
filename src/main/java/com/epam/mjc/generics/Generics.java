@@ -20,7 +20,7 @@ public class Generics {
     }
 
     //TODO: Refactor Method-3
-    public void cloneMethod(List<Number> consumer, List<Integer> producer) {
+    public void cloneMethod(List<Number> consumer, List<? extends Number> producer) {
         consumer.addAll(producer);
     }
 
